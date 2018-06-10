@@ -1,7 +1,14 @@
 # Target
 
+....
+
 Cli paramaters
-    -in ./input -out ./output
+
+``` sh
+    [usage] 
+    node index.js -in [input_folder] -out [output_folder]
+```
+
 Requirements:
 1. wrong format ( missing in, out )
     Print [usage] node index.js -in [input] -out [outputs]
